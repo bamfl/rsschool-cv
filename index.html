@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV | Dmitriy Petukhov</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="container">
+          <nav class="header__nav">
+            <ul>
+              <li><a href="#person">Person</a></li>
+              <li><a href="#position">Position</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills and Proficiency</a></li>
+              <li><a href="#code">Code example</a></li>
+              <li><a href="#experience">Work experience</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#languages">Languages</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="container">
+          <div class="row">
+            <section id="person" class="person">
+              <h1>Dmitriy Petukhov</h1>
+              <div class="person__image">
+                <img src="./img/Ava.jpg" alt="person image" />
+              </div>
+            </section>
+
+            <section id="contacts" class="contacts">
+              <h2>Contacts:</h2>
+              <ul>
+                <li>
+									<span class="material-icons">local_phone</span>
+									<a href="tel:+79234815507" target="_blank">+7 923 481 55 07</a>
+								</li>
+                <li>
+									<span class="material-icons">email</span>
+									<a href="mailto:pdnsite@gmail.com" target="_blank">pdnsite@gmail.com</a>
+								</li>
+                <li>
+									<span class="material-icons">telegram</span>
+									<a href="https://t.me/DmitriyPetukhov" target="_blank">@DmitriyPetukhov</a>
+								</li>
+								<li>
+									<span>GitHub:</span>
+									<a href="https://github.com/bamfl?tab=repositories" target="_blank">bamfl</a>
+								</li>
+                <li>
+                  <span>LinkedIn:</span>
+									<a href="https://www.linkedin.com/in/dmitriy-petukhov/" target="_blank">Dmitriy Petukhov</a>
+                </li>
+              </ul>
+            </section>
+          </div>
+
+          <section id="position" class="position">
+            <h2>Position:</h2>
+            <p>HTML and CSS Developer</p>
+          </section>
+
+          <div class="row">
+          	<section id="about" class="about">
+	            <h2>About myself:</h2>
+	            <p>
+	              I live in Krasnodar city, Russia. I’m 27 years old. I started my career of HTML and CSS Developer 10
+	              months ago on Junior position. Today I’m a middle developer. My main aim today is to become a JavaScript
+	              Frontend Developer.
+	            </p>
+	          </section>
+	
+	          <section id="skills" class="skills">
+	            <h2>Skills and Proficiency:</h2>
+	            <ul>
+	              <li>HTML5, CSS3</li>
+	              <li>JavaScript Basics</li>
+	              <li>Git, GitHub</li>
+	              <li>VS Code</li>
+	              <li>SCSS, Gulp, Webpack</li>
+	              <li>Figma, Avocode, Photoshop</li>
+	            </ul>
+	          </section>
+          </div>
+
+          <section id="code" class="code">
+            <h2>Code example:</h2>
+            <p>Create custom filter method for an Array:</p>
+            <code>
+              const arr = [1, 5, 10, 20]; <br /><br />
+
+              arr.myFilter = function(callback) { <br />
+              &nbsp;&nbsp;const newArr = []; <br /><br />
+
+              &nbsp;&nbsp;this.forEach(item => { <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;if (callback(item)) { <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;newArr.push(item); <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;} <br />
+              &nbsp;&nbsp;}); <br /><br />
+
+              &nbsp;&nbsp;return newArr; <br />
+              }; <br /><br />
+
+              const myFilteredArr = arr.myFilter(item => item > 10); <br /><br />
+
+              console.log(myFilteredArr); // [20]<br />
+            </code>
+          </section>
+
+          <div class="row">
+          	<section id="experience" class="experience">
+	            <h2>Work experience:</h2>
+	            <ul>
+	              <li>Water supply and sanitation engineer - 3 years</li>
+	              <li>HTML and CSS Developer - 10 months</li>
+	              <li>My works: <a href="https://pdnsite.ru/" target="_blank">https://pdnsite.ru/</a></li>
+	              <li>
+	                My code:
+	                <a href="https://github.com/bamfl?tab=repositories" target="_blank"
+	                  >https://github.com/bamfl?tab=repositories</a
+	                >
+	              </li>
+	            </ul>
+	          </section>
+	
+	          <section id="education" class="education">
+	            <h2>Higher education:</h2>
+	            <ul>
+	              <li>Educational institution: Kuzbass State University</li>
+	              <li>Speciality: water supply and sanitation engineer</li>
+	              <li>Graduated year: 2017</li>
+	            </ul>
+	          </section>
+          </div>
+
+          <div class="row">
+          	<section id="courses" class="courses">
+	            <h2>Courses:</h2>
+	            <ul>
+	              <li>HTML and CSS on YouTube channels: “from 0 to 1”, “Freelancer by life”</li>
+	              <li>avaScript on YouTube channels: “Vladilen Minin”, “Ivan Petrichenko”</li>
+	            </ul>
+	          </section>
+	
+	          <section id="languages" class="languages">
+	            <h2>Languages:</h2>
+	            <ul>
+	              <li>Russian - Native</li>
+	              <li>English - Elementary (A2)</li>
+	            </ul>
+	          </section>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <p>Dmitriy Petukhov</p>
+          <p>2021</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
