@@ -3,11 +3,11 @@ https://bamfl.github.io/rsschool-cv/
 
 ## HTML and CSS Developer
 ## Contacts:
-Phone: +7 923 481 55 07
-E-mail: pdnsite@gmail.com
-GitHub: [bamfl](https://github.com/bamfl?tab=repositories)
-Telegram: @DmitriyPetukhov
-[LinkedIn](https://www.linkedin.com/in/dmitriy-petukhov/)
+* Phone: +7 923 481 55 07
+* E-mail: pdnsite@gmail.com
+* GitHub: [bamfl](https://github.com/bamfl?tab=repositories)
+* Telegram: @DmitriyPetukhov
+* [LinkedIn](https://www.linkedin.com/in/dmitriy-petukhov/)
 
 ## About myself:
 I live in Krasnodar city, Russia. I'm 27 years old.
@@ -23,7 +23,7 @@ My main aim today is to become a JavaScript Frontend Developer.
 * Figma, Avocode, Photoshop
 
 ## Code example:
-Create custom filter method for Array:
+Create custom filter method for an Array:
 ```
 const arr = [1, 5, 10, 20];
 
