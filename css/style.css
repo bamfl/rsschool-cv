@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+html,
+body {
+	font-family: "Roboto", sans-serif;
+	scroll-behavior: smooth;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #fff;
+	background-color: #7d8474;
+}
+
+*,
+*::after,
+*::before,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h2 {
+	color: #000;
+}
+
+section {
+	border-bottom: 1px solid #fff;
+	padding: 10px 0;
+}
+
+section:last-child {
+	border-bottom: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.page {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	flex: 1 1 100%;
+}
+
+code {
+	display: block;
+	background-color: #f6f8fa;
+	color: green;
+	padding: 10px;
+}
+
+.header,
+.footer {
+	background-color: #fff;
+	color: #000;
+}
+
+.header nav ul {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	font-weight: 700;
+	padding: 10px 0;
+}
+
+.header nav li {
+	padding: 0 5px 0 0px;
+}
+
+.person__image {
+	width: 150px;
+	height: 200px;
+	position: relative;
+}
+
+.person__image img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+
+.footer .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 700;
+	padding: 10px 0;
+}
