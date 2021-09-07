@@ -45,11 +45,11 @@ console.log(myFilteredArr); // [20]
 ```
 
 ## Work experience:
-Water supply and sanitation engineer - 3 years
-HTML and CSS Developer - 10 months.
-Position - middle developer
-My works: https://pdnsite.ru/
-My code: https://github.com/bamfl?tab=repositories
+* Water supply and sanitation engineer - 3 years
+* HTML and CSS Developer - 10 months.
+* Position - middle developer
+* My works: https://pdnsite.ru/
+* My code: https://github.com/bamfl?tab=repositories
 
 ## Education:
 Higher education:
